@@ -59,7 +59,6 @@ class Main {
         }
         processArray[processNo] = new Process(pHeld, pMax, processNo, currentResource);
         processNo += 1;
-
       }
     }
 
