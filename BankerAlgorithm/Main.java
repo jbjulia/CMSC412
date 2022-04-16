@@ -46,11 +46,11 @@ class Main {
         currentResource += 1;
       }
       if ((line.length() > 0) && (line.charAt(0) == 'P')) {
-        line = line.replaceAll("[^\\d]", " "); // Remove unnecessarry characters
+        line = line.replaceAll("[^\\d]", " "); // Remove unnecessary characters
         int[] pHeld = new int[MAX_RESOURCES];
         int[] pMax = new int[MAX_RESOURCES];
         Scanner p = new Scanner(line); // Initialize Scanner for next section of file
-        p.nextInt(); // Remove unneccessarry characters
+        p.nextInt(); // Remove unnecessary characters
         for (int i = 0; i < currentResource; i++) {
           pHeld[i] = p.nextInt();
         }
